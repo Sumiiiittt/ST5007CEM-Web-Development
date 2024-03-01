@@ -1,0 +1,205 @@
+.au-container{background: white;height:100%; width:100vw;overflow-x: hidden;}
+
+.au-container .au-header{
+    display:flex;
+    background-color: #1c5968;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    z-index: 1000;
+}
+.au-logo img {
+    width:120px;
+    height: 85px;
+    margin-top: -10px;
+}
+
+.au-searchbar {
+    flex-grow: 1;
+    margin-left: 15px;
+
+}
+
+
+.au-searchbar input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 14px;
+    background-color: #ffffff;
+    color: black;
+    border-radius:40px ;
+    font-size: 16px;
+    border: 2px solid black;
+    outline: none;
+
+}
+
+.au-searchbar input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.au-btn-wrapper button {
+    margin-left: 10px;
+    background-color: #1c5968;
+    color: white;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    height: 60px;
+    border-radius: 0;
+
+}
+
+.au-search_button button{
+    margin-left:-43px;
+    margin-top: 23px;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding:5px;
+    border: none;
+
+
+
+}
+
+.au-search_button i {
+    font-size: 20px;
+    margin-right: 5px;}
+.au-btn-wrapper button i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.au-btn_before button {
+    margin-left: 10px;
+    background-color: #1c5968;
+    color: white;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+}
+
+.au-btn_before button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.au-btn_before button:hover {
+    border-bottom-color: white;
+}
+.au-btn-wrapper button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.au-btn-wrapper button:hover {
+    border-bottom-color: white;
+}
+.au-container .au-footer{
+    display: flex;
+    height:41% ;
+    background: black;
+    /*margin-top: 20px;*/
+    font-size: 5px;
+    /*align-items: flex-end;*/
+    justify-content: space-around;
+
+}
+.au-footer .au-get-help{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+
+
+}
+.au-footer .au-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -75px;
+
+}
+.au-footer .au-logos{
+    display: flex;
+    align-items: center;
+
+}
+.au-logos img{
+    padding: 8px}
+.au-get-help button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.au-get-help button:hover {
+    color: white;
+}
+.au-get-help span{
+    font-size: 13px;
+    margin-top: 15px;
+    color: lightgrey;
+}
+.au-about-us button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.au-about-us button:hover {
+    color: white;
+}
+
+
+.au-logos span{
+    font-size: 16px;
+    color: lightgrey;
+
+}
+
+.au-logos img{
+    cursor: pointer;
+}
+
+.au-body {
+    height: 155%;
+    background-color: white;
+    color: black;
+    padding: 70px;
+
+}
+.au-body h1{
+    font-size: 23px;
+}
+.au-body p{
+    font-size: 18px;
+}
+.au-about-us h1{
+    color: white;
+    font-size: 15px;
+}
+.au-get-help h1{
+    color: white;
+    font-size: 15px;
+}
+.au-body h2{
+    font-size: 20px;
+}
+
+
+
+

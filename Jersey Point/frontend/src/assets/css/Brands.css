@@ -1,0 +1,330 @@
+.brand-container {
+    background: white;
+}
+
+.brand-btn_before button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+/* Change the border color when the button is hovered */
+.brand-btn_before button:hover {
+    border-bottom-color: white; /* Change to your desired border color */
+}
+.brand-btn-wrapper button{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+}
+/* Change the border color when the button is hovered */
+.brand-btn-wrapper button:hover {
+    border-bottom-color: white; /* Change to your desired border color */
+}
+.brand-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    z-index: 1000;
+    background-color: #1c5968;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.brand-logo img {
+    width:120px; /* Set the desired width of the logo */
+    height: 85px; /* Maintain aspect ratio */
+    margin-top: -10px; /* Add top margin for spacing, adjust as needed */
+}
+
+.brand-btn_before button {
+    margin-left: 10px;
+    background-color: #1c5968;
+    color: white;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.brand-btn_before button:hover {
+    border-bottom-color: black;
+}
+
+.brand-searchbar {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.brand-searchbar input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 14px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.brand-searchbar input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.brand-search_button button {
+    margin-left: -43px;
+    margin-top: 23px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+}
+
+.brand-search_button i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.brand-btn-wrapper button {
+    margin-left: 10px;
+    background-color: #1c5968;
+    color: white;
+    padding: 25px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    height: 60px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.brand-btn-wrapper button:hover {
+    border-bottom-color: black;
+}
+
+.brand-main-content {
+    height: 100vh;
+    margin-left: 50px;
+}
+
+.brand-main-content h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.brand-product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.product-card {
+    background-color: white;
+    width: 50vh;
+    height: 30vh;
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+.product-card .item-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.product-card p {
+    margin: 2px;
+}
+
+.brand-footer {
+    display: flex;
+    height: 40%;
+    background: black;
+    font-size: 5px;
+    justify-content: space-around;
+}
+
+.brand-get-help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
+.brand-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: -75px;
+}
+
+.brand-logos {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logos img {
+    padding: 8px;
+}
+
+.brand-get-help button {
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+}
+
+.brand-get-help button:hover {
+    color: white;
+}
+
+.brand-get-help span {
+    font-size: 13px;
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.brand-about-us button {
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+}
+
+.brand-about-us button:hover {
+    color: white;
+}
+
+.brand-about-us h1 {
+    color: white;
+    font-size: 15px;
+}
+
+.brand-get-help h1 {
+    color: white;
+    font-size: 15px;
+}
+
+.brand-logos span {
+    font-size: 16px;
+    color: lightgrey;
+}
+
+.brand-logos img {
+    cursor: pointer;
+}
+
+
+.brand-product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.product-card .item-image {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.product-card .item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+.product-card p {
+    margin: 2px;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.brand-footer .brand-get-help{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    margin-top: 35px;
+
+
+}
+.brand-footer .brand-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    margin-top: -75px;
+
+}
+.brand-footer .brand-logos{
+    display: flex;
+    align-items: flex-end;
+    /*position: fixed; !* Set the position to fixed *!*/
+    bottom: 10px; /* Align the footer to the bottom of the viewport */
+    left: 10px; /* Align the footer to the left of the viewport */
+    right: 0; /* Align the footer to the right of the viewport */
+    /*justify-content: space-evenly;*/
+
+}
+.brand-logos img{
+    padding: 8px}
+.brand-get-help button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.brand-get-help button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+.brand-get-help span{
+    font-size: 13px;
+    margin-top: 15px;
+    color: lightgrey;
+    /*padding-bottom: -50px;*/
+    /*margin-bottom: -60px;*/
+
+
+}
+
+.brand-about-us button{
+    background-color: black;
+    color: grey;
+    font-size: 14px;
+    border: none;
+
+}
+.brand-about-us button:hover {
+    color: white; /* Change to the desired color on hover */
+}
+.brand-about-us h1{
+    color: white;
+    font-size: 15px;
+}
+.brand-get-help h1{
+    color: white;
+    font-size: 15px;
+}
